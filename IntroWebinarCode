@@ -1,0 +1,87 @@
+public class MyClass {
+    public static void main(String args[]) {
+    
+    //This is a one line comment.
+    
+    /*
+    This is 
+    a multiple
+    line comment
+    */
+    
+    /*
+     Compiler is a "translator" that translates code we write 
+    int "native" computer code, that looks like:
+    1110001001011101010101, this then gets translated back to our
+    programming code
+    */
+   
+    //int: datatype, myNum: variable name
+    //= : assignment operator that assigns value to variable
+    //; - closes the statment/ends line
+    int myNum = 8;
+    int myNum2 = 2;
+    
+    //We can create new variable where we add two different
+    //variables together
+    int result = myNum + myNum2;
+ 
+    
+    
+    double decimalNumber = 3.5;
+    double decimalNumber2 = 2.5;
+    //double is twice as detailed as a float
+    //meaning that it can have double the amount of numbers 
+    //after the decimal point. Float also requires an "f" after the value
+    float myFloat = 2.3f;
+    
+    
+    String myName = "Mantas";
+    int myAge = 28;
+    
+    //We can print out random text together with different
+    //data-type variables as below.
+    System.out.println("Hi, my name is: " + myName + ", and my age is: " + myAge);
+    
+    
+    //Strings accept different signs, letters, and numbers.
+    //However, we cannot use numbers declared as String for
+    //multiplication, subtraction, addition and so on.
+    String numberAsText = "5";
+    
+    //This will add myNum and numberAsText close to one another
+    //Output is **85*** instead of 13
+    System.out.println(myNum + numberAsText);
+    
+    
+    //Booleans holds either true or false values.
+    boolean doILikePizza = true;
+    boolean doILikeSleep = false;
+    System.out.println(doILikePizza);
+    
+    
+    int age = 30;
+    int anotherAge = 20;
+    
+    /*
+    We can use comparison signs to see if one variable is greater
+    then the other.
+    We can also use that for ==, !=, <, >, <=, >= comparison operators.
+    Output is either true or false depending on result.
+    */
+    System.out.println(age < anotherAge);
+    
+    
+    // ********Bonus!*******
+    /*
+    System.out.println(); 
+    *System - is an inbuilt class in Java
+    *out - is a variable defined in System class.
+    *println() is a method, also defined in System class.
+    
+    For those who wish to know what public static void main(String args[])
+    means please check this link:
+    https://www.journaldev.com/12552/public-static-void-main-string-args-java-main-method
+    */
+    }
+}
